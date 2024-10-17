@@ -1,6 +1,47 @@
 # Pointer Examples in C++
 
 This repository contains three C++ files that demonstrate basic pointer concepts:
+# Algorithms
+
+## Basic Pointer
+
+### Algorithm
+
+1. **Start.**  
+2. **Declare Variable:**  
+   - Declare a variable `a` and initialize it to `10`.  
+3. **Declare Pointer Variable:**  
+   - Declare a pointer variable `aptr` of type `int`.  
+4. **Assign Address:**  
+   - Assign the address of variable `a` to `aptr`.  
+5. **Print Memory Address:**  
+   - Print the memory address of `a` using `&a`.  
+6. **Print Pointer Value:**  
+   - Print the value stored in `aptr`, which is the address of `a`.  
+7. **Dereference Pointer:**  
+   - Dereference `aptr` and print its value (i.e., print the value of `a`).  
+8. **End.**
+
+---
+
+## Pointer Incrementation
+
+### Algorithm
+
+1. **Start.**  
+2. **Declare Variable:**  
+   - Declare an integer variable `a` and initialize it to `10`.  
+3. **Declare Pointer:**  
+   - Declare a pointer `aptr` of type `int`.  
+4. **Assign Address:**  
+   - Assign the address of `a` to `aptr`.  
+5. **Print Pointer Value:**  
+   - Print the value of `aptr`, which is the address of `a`.  
+6. **Increment Pointer:**  
+   - Increment the pointer by `1`. This moves the pointer to the next memory location that would store an `int`.  
+7. **Print New Pointer Value:**  
+   - Print the new value of `aptr`.  
+8. **End.**
 
 ## 1. basic_pointer.cpp
 
